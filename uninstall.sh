@@ -6,7 +6,7 @@ if [ "$EUID" -ne 0 ]; then
     echo "" # New line
     if [[ $REPLY =~ ^[Yy]$ ]]
     then # Uninstall theme as user
-        rm -R ~/.config/Kvantum/KvYaru-*
+        rm -R ~/.config/Kvantum/KvLibadwaita
         MESSAGE="Uninstallation complete."
     else # Don't uninstall theme as user
         MESSAGE="Uninstallation aborted."
@@ -17,7 +17,7 @@ else
     echo "" # New line
     if [[ $REPLY =~ ^[Yy]$ ]]
     then # Uninstall theme as user
-        rm -R /usr/share/Kvantum/KvYaru-*
+        rm -R /usr/share/Kvantum/KvLibadwaita
         MESSAGE="Uninstallation complete."
     else # Don't uninstall theme as user
         MESSAGE="Uninstallation aborted."
