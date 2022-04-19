@@ -9,6 +9,7 @@ git clone https://github.com/GabePoel/KvLibadwaita.git
 cd KvLibadwaita
 ./install.sh
 ```
+Or just copy `src/KvLibadwaita` into `~/.config/Kvantum`.
 
 ## Preview
 
