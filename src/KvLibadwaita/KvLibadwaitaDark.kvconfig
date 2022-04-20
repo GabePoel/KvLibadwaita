@@ -300,10 +300,10 @@ text.bold=false
 inherits=PanelButtonCommand
 frame.element=tabframe
 interior.element=tabframe
-frame.top=6
-frame.bottom=6
-frame.left=6
-frame.right=6
+frame.top=24
+frame.bottom=24
+frame.left=24
+frame.right=24
 
 [TreeExpander]
 inherits=PanelButtonCommand
