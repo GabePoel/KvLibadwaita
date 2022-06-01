@@ -20,13 +20,13 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="0"
      showgrid="true"
-     inkscape:zoom="3.3341562"
-     inkscape:cx="311.923"
-     inkscape:cy="501.77613"
-     inkscape:window-width="1920"
-     inkscape:window-height="1080"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:zoom="5.5133753"
+     inkscape:cx="74.545986"
+     inkscape:cy="719.06949"
+     inkscape:window-width="1904"
+     inkscape:window-height="995"
+     inkscape:window-x="35"
+     inkscape:window-y="32"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg1810"
      inkscape:snap-bbox="true"
@@ -4033,7 +4033,8 @@
      height="100%"
      xlink:href="#tab-toggled-topleft"
      x="0"
-     y="0" />
+     y="0"
+     style="opacity:1" />
   <g
      id="tabBarFrame-toggled-bottom"
      transform="matrix(0 -1 .66667 0 -491.34 777)">
@@ -4116,7 +4117,8 @@
      xlink:href="#tabframe-normal-top-leftjunct" />
   <g
      id="tab-toggled"
-     transform="translate(0,-3)">
+     transform="translate(0,-3)"
+     style="opacity:1">
     <rect
        id="rect90454"
        width="12"
@@ -4127,7 +4129,8 @@
   </g>
   <g
      id="tab-toggled-topleft"
-     transform="translate(0,-3)">
+     transform="translate(0,-3)"
+     style="opacity:1">
     <rect
        id="rect90458"
        width="8"
@@ -4142,7 +4145,8 @@
   </g>
   <g
      id="tab-toggled-top"
-     transform="translate(0,-3)">
+     transform="translate(0,-3)"
+     style="opacity:1">
     <rect
        id="rect90448"
        width="12"
@@ -4160,7 +4164,8 @@
   </g>
   <g
      id="tab-toggled-left"
-     transform="translate(0,-3)">
+     transform="translate(0,-3)"
+     style="opacity:1">
     <rect
        id="rect90450"
        width="8"
@@ -4183,10 +4188,12 @@
      id="tab-toggled-right"
      transform="matrix(-1,0,0,1,188,0)"
      width="100%"
-     height="100%" />
+     height="100%"
+     style="opacity:1" />
   <g
      id="tab-toggled-bottom"
-     transform="matrix(1,0,0,-1,0,1369)">
+     transform="matrix(1,0,0,-1,0,1369)"
+     style="opacity:1">
     <rect
        id="rect90827"
        width="12"
@@ -4204,7 +4211,8 @@
   </g>
   <g
      id="tab-toggled-bottomright"
-     transform="matrix(0,-1,-1,0,783,774)">
+     transform="matrix(0,-1,-1,0,783,774)"
+     style="opacity:1">
     <rect
        id="rect90821"
        width="8"
@@ -4219,7 +4227,8 @@
   </g>
   <g
      id="tab-toggled-bottomleft"
-     transform="matrix(1,0,0,-1,0,1369)">
+     transform="matrix(1,0,0,-1,0,1369)"
+     style="opacity:1">
     <rect
        id="rect90815"
        width="8"
@@ -4361,7 +4370,7 @@
   <g
      id="tab-normal-topright"
      transform="matrix(-1,0,0,1,146,-4)"
-     style="opacity:0">
+     style="opacity:1">
     <rect
        id="rect93067"
        width="8"
@@ -4377,7 +4386,7 @@
   <g
      id="tab-normal"
      transform="translate(-42.00001,-4.0000038)"
-     style="opacity:0">
+     style="opacity:1">
     <rect
        id="rect90454-0"
        width="12"
@@ -4389,7 +4398,7 @@
   <g
      id="tab-normal-topleft"
      transform="translate(-42.00001,-4.0000038)"
-     style="opacity:0">
+     style="opacity:1">
     <rect
        id="rect90458-6"
        width="8"
@@ -4405,7 +4414,7 @@
   <g
      id="tab-normal-top"
      transform="translate(-42.00001,-4.0000038)"
-     style="opacity:0">
+     style="opacity:1">
     <rect
        id="rect90448-6"
        width="12"
@@ -4424,7 +4433,7 @@
   <g
      id="tab-normal-left"
      transform="translate(-42.00001,-4.0000038)"
-     style="opacity:0">
+     style="opacity:1">
     <rect
        id="rect90450-8"
        width="8"
@@ -4443,7 +4452,7 @@
   <g
      id="tab-normal-right"
      transform="matrix(-1,0,0,1,146,-4)"
-     style="opacity:0">
+     style="opacity:1">
     <rect
        id="rect93061"
        width="8"
@@ -4462,7 +4471,7 @@
   <g
      id="tab-normal-bottom"
      transform="matrix(1,0,0,-1,-42.00001,1368)"
-     style="opacity:0">
+     style="opacity:1">
     <rect
        id="rect90827-9"
        width="12"
@@ -4481,7 +4490,7 @@
   <g
      id="tab-normal-bottomright"
      transform="matrix(0,-1,-1,0,741,773.00001)"
-     style="opacity:0">
+     style="opacity:1">
     <rect
        id="rect90821-2"
        width="8"
@@ -4497,7 +4506,7 @@
   <g
      id="tab-normal-bottomleft"
      transform="matrix(1,0,0,-1,-42.00001,1368)"
-     style="opacity:0">
+     style="opacity:1">
     <rect
        id="rect90815-7"
        width="8"
