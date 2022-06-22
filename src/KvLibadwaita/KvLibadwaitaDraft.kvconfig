@@ -15,7 +15,11 @@ respect_DE=true
 transient_groove=true
 slider_width=6
 slider_handle_width=42
-slider_handle_length=42
+slider_handle_length=36
+progressbar_thickness=12
+spread_progressbar=true
+spin_button_width=30
+vertical_spin_indicators=false
 
 [PanelButtonCommand]
 frame.top=9
@@ -23,14 +27,26 @@ frame.bottom=9
 frame.left=9
 frame.right=9
 interior=true
+focusFrame=false
 frame=true
 frame.element=button
 interior=element=button
 frame.expansion=0
 
+[Focus]
+frame.element=focus
+frame.patternsize=6
+frame=true
+frame.expansion=100
+frame.top=9
+frame.bottom=9
+frame.left=9
+frame.right=9
+
 [Button]
 frame.element=button
 interior.element=button
+focusFrame=false
 frame.top=9
 frame.bottom=9
 frame.left=9
@@ -77,6 +93,10 @@ frame.bottom=9
 frame.left=9
 frame.right=9
 
+[IndicatorSpinBox]
+inherits=PanelButtonCommand
+indicator.size=16
+
 [Menu]
 frame.top=12
 frame.bottom=12
@@ -94,6 +114,25 @@ frame.top=3
 frame.bottom=3
 frame.left=3
 frame.right=3
+
+[Progressbar]
+inherits=PanelButtonCommand
+frame.element=progress
+interior.element=progress
+frame.top=6
+frame.bottom=6
+frame.left=6
+frame.right=6
+
+[ProgressbarContents]
+inherits=PanelButtonCommand
+frame=true
+frame.element=progress-pattern
+interior.element=progress-pattern
+frame.top=6
+frame.bottom=6
+frame.left=6
+frame.right=6
 
 [MenuItem]
 inherits=PanelButtonCommand
@@ -131,6 +170,26 @@ indicator.size=12
 
 [CheckBox]
 inherits=PanelButtonCommand
+
+[GroupBox]
+interior=true
+frame.expansion=0
+frame.element=group
+interior.element=group
+frame.top=1
+frame.left=1
+frame.right=1
+frame.bottom=1
+
+[GenericFrame]
+interior=true
+frame.expansion=0
+frame.element=group
+interior.element=group
+frame.top=1
+frame.left=1
+frame.right=1
+frame.bottom=1
 
 [SliderCursor]
 inherits=PanelButtonCommand
