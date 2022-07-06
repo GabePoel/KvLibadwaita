@@ -1,12 +1,13 @@
 [%General]
 composite=true
 menu_shadow_depth=12
-tooltip_shadow_depth=12
+tooltip_shadow_depth=0
 x11drag=menubar_and_primary_toolbar
 scrollable_menu=true
 spread_menuitems=true
 combo_menu=true
-check_size=18
+combo_as_lineedit=true
+check_size=24
 tickless_slider_handle_size=42
 scroll_arrows=false
 transient_scrollbar=false
@@ -20,6 +21,43 @@ progressbar_thickness=12
 spread_progressbar=true
 spin_button_width=30
 vertical_spin_indicators=false
+joined_inactive_tabs=true
+force_size_grip=0
+attach_active_tab=false
+center_doc_tabs=true
+center_normal_tabs=true
+embedded_tabs=false
+tab_button_extra_margin=0
+small_icon_size=16
+large_icon_size=32
+button_icon_size=16
+toolbar_icon_size=16
+tree_branch_line=true
+
+[GeneralColors]
+window.color=#64ddbc
+inactive.window.color=#63c7ac
+base.color=#45a58b
+inactive.base.color=#589f9f
+alt.base.color=#38bebe
+inactive.alt.base.color=#77cfcf
+button.color=#64ddbc
+light.color=#64ddbc
+mid.light.color=#c37242
+highlight.color=#42c374
+inactive.highlight.color=#507d61
+tooltip.base.color=#5aeb90
+text.color=#ebc85a
+inactive.text.color=#ab8c2a
+button.text.color=#ab7e2a
+disabled.text.color=#ab652a
+tooltip.text.color=#765132
+highlight.text.color=#a7f744
+inactive.highlight.text.color=#729f3a
+link.color=#9f883a
+link.visited.color=#9f533a
+progress.indicator.text.color=#9f3a94
+progress.inactive.indicator.text.color=#3a9f76
 
 [PanelButtonCommand]
 frame.top=9
@@ -30,8 +68,28 @@ interior=true
 focusFrame=false
 frame=true
 frame.element=button
-interior=element=button
+interior.element=button
+indicator.size=16
 frame.expansion=0
+
+[TitleBar]
+frame=false
+frame.expansion=0
+indicator.size=38
+text.margin.top=12
+text.margin.bottom=12
+
+[IndicatorSpinBox]
+inherits=PanelButtonCommand
+indicator.size=16
+
+[IndicatorArrow]
+indicator.element=arrow
+indicator.size=16
+
+[DropDownButton]
+indicator.element=arrow-down
+indicator.size=16
 
 [Focus]
 frame.element=focus
@@ -46,6 +104,7 @@ frame.right=9
 [Button]
 frame.element=button
 interior.element=button
+indicator.size=16
 focusFrame=false
 frame.top=9
 frame.bottom=9
@@ -53,12 +112,8 @@ frame.left=9
 frame.right=9
 
 [PanelButtonTool]
-frame.element=button
-interior.element=button
-frame.top=9
-frame.bottom=9
-frame.left=9
-frame.right=9
+inherits=PanelButtonCommand
+indicator.size=16
 
 [MenuBarItem]
 interior.element=menubaritem
@@ -72,13 +127,15 @@ text.margin.right=3
 text.margin.top=0
 text.margin.bottom=0
 
-[LineEdit]
-frame.top=9
-frame.bottom=9
-frame.left=9
-frame.right=9
+[Toolbar]
+frame=true
+frame.top=1
+frame.bottom=1
+frame.left=0
+frame.right=0
 
 [ToolbarButton]
+inherits=PanelButtonCommand
 frame=true
 frame.element=button
 interior.element=button
@@ -86,16 +143,39 @@ frame.top=9
 frame.bottom=9
 frame.left=9
 frame.right=9
+indicator.size=16
 
-[ComboBox]
+[LineEdit]
 frame.top=9
 frame.bottom=9
 frame.left=9
 frame.right=9
+indicator.element=arrow
+indicator.size=16
+
+[ToolbarLineEdit]
+inherits=LineEdit
+indicator.element=arrow
+indicator.size=16
+
+[ComboBox]
+inherits=LineEdit
+frame.top=9
+frame.bottom=9
+frame.left=9
+frame.right=9
+indicator.size=16
+indicator.element=arrow
 
 [IndicatorSpinBox]
 inherits=PanelButtonCommand
 indicator.size=16
+
+[TreeExpander]
+frame=false
+interior=false
+indicator.size=16
+indicator.element=indicator
 
 [Menu]
 frame.top=12
@@ -104,6 +184,7 @@ frame.left=12
 frame.right=12
 frame.element=menu
 interior.element=menu
+indicator.size=16
 
 [Slider]
 inherits=PanelButtonCommand
@@ -114,6 +195,16 @@ frame.top=3
 frame.bottom=3
 frame.left=3
 frame.right=3
+
+[SizeGrip]
+interior=false
+frame=false
+
+[ToolTip]
+frame.top=12
+frame.bottom=12
+frame.left=12
+frame.right=12
 
 [Progressbar]
 inherits=PanelButtonCommand
@@ -151,11 +242,16 @@ frame.right=21
 text.bold=false
 frame.expansion=0
 
+[ToolboxTab]
+inherits=PanelButtonCommand
+
 [Tab]
 frame.top=1
 frame.bottom=1
 frame.left=1
 frame.right=1
+indicator.size=24
+min_height=38
 
 [ScrollbarSlider]
 inherits=PanelButtonCommand
@@ -167,9 +263,6 @@ frame.top=6
 frame.bottom=6
 indicator.element=grip
 indicator.size=12
-
-[CheckBox]
-inherits=PanelButtonCommand
 
 [GroupBox]
 interior=true
@@ -190,6 +283,43 @@ frame.top=1
 frame.left=1
 frame.right=1
 frame.bottom=1
+
+[ItemView]
+inherits=PanelButtonCommand
+
+[Dock]
+frame.top=1
+frame.left=1
+frame.right=1
+frame.bottom=1
+indicator.size=24
+indicator.element=dock
+min_height=38
+
+[DockTitle]
+frame.top=1
+frame.left=1
+frame.right=1
+frame.bottom=1
+indicator.size=24
+indicator.element=dock
+min_height=38
+
+[TabFrame]
+inherits=GenericFrame
+interior=tabframe
+frame=tabframe
+
+[TabBarFrame]
+inherits=GenericFrame
+
+[HeaderSection]
+frame.element=tab
+interior.element=tab
+frame.top=1
+frame.bottom=1
+frame.left=1
+frame.right=1
 
 [SliderCursor]
 inherits=PanelButtonCommand
