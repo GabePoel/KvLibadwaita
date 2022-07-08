@@ -1,0 +1,412 @@
+{
+    "button-normal": {
+        "ref": "#c64600",
+        "light": "#ebebeb",
+        "dark": "#4a4a4a"
+    },
+    "button-focused": {
+        "ref": "#e66100",
+        "light": "#e0e0e0",
+        "dark": "#545454"
+    },
+    "button-pressed": {
+        "ref": "#ff7800",
+        "light": "#c2c2c2",
+        "dark": "#727272"
+    },
+    "button-toggled": {
+        "ref": "#ffa348",
+        "light": "#b3b3b3",
+        "dark": "#6e6e6e"
+    },
+    "item-normal": {
+        "ref": "#0080c6",
+        "light": "#ebebeb",
+        "dark": "#4a4a4a"
+    },
+    "item-focused": {
+        "ref": "#0085e6",
+        "light": "#e0e0e0",
+        "dark": "#545454"
+    },
+    "item-pressed": {
+        "ref": "#0087ff",
+        "light": "#c2c2c2",
+        "dark": "#727272"
+    },
+    "item-toggled": {
+        "ref": "#48a4ff",
+        "light": "#b3b3b3",
+        "dark": "#6e6e6e"
+    },
+    "tab-normal-fill": {
+        "ref": "#a900c6",
+        "light": "#e1e1e1",
+        "dark": "#262626"
+    },
+    "tab-normal-edge": {
+        "ref": "#529074",
+        "light": "#cfcfcf",
+        "dark": "#4f4f4f"
+    },
+    "tab-focused-fill": {
+        "ref": "#d400e6",
+        "light": "#dcdcdc",
+        "dark": "#2d2d2d"
+    },
+    "tab-focused-edge": {
+        "ref": "#56a07e",
+        "light": "#cfcfcf",
+        "dark": "#2d2d2d"
+    },
+    "tab-toggled-fill": {
+        "ref": "#f800ff",
+        "light": "#ebebeb",
+        "dark": "#303030"
+    },
+    "tab-toggled-edge": {
+        "ref": "#59a87c",
+        "light": "#cfcfcf",
+        "dark": "#4f4f4f"
+    },
+    "tab-tear": {
+        "ref": "#15b39e",
+        "light": "#3584e4",
+        "dark": "#3584e4"
+    },
+    "line-edit-normal-fill": {
+        "ref": "#ffbe6f",
+        "light": "#ebebeb",
+        "dark": "#4a4a4a"
+    },
+    "line-edit-pressed-fill": {
+        "ref": "#6fb0ff",
+        "light": "#ebebeb",
+        "dark": "#4a4a4a"
+    },
+    "line-edit-pressed-edge": {
+        "ref": "#6bb184",
+        "light": "#7aa5d8",
+        "dark": "#5f7999"
+    },
+    "uncheck-normal-fill": {
+        "ref": "#bcc22e",
+        "light": "#ffffff",
+        "dark": "#363636"
+    },
+    "unchecked-normal-edge": {
+        "ref": "#a2265f",
+        "light": "#e0e0e0",
+        "dark": "#545454"
+    },
+    "unchecked-focused-fill": {
+        "ref": "#2ec27e",
+        "light": "#f9f9f9",
+        "dark": "#3c3c3c"
+    },
+    "uncheck-focused-edge": {
+        "ref": "#333bd1",
+        "light": "#d1d1d1",
+        "dark": "#636363"
+    },
+    "checked-normal-fill": {
+        "ref": "#d1338a",
+        "light": "#3584e4",
+        "dark": "#3584e4"
+    },
+    "checked-focused-fill": {
+        "ref": "#e357b1",
+        "light": "#4990e7",
+        "dark": "#4990e7"
+    },
+    "menu-check-normal": {
+        "ref": "#a3b600",
+        "light": "#333333",
+        "dark": "#ffffff"
+    },
+    "menu-check-focus": {
+        "ref": "#c2b600",
+        "light": "#2f2f2f",
+        "dark": "#ffffff"
+    },
+    "menu-uncheck-radio-normal": {
+        "ref": "#11f550",
+        "light": "#c2c2c2",
+        "dark": "#747474"
+    },
+    "menu-uncheck-radio-focus": {
+        "ref": "#2df66e",
+        "light": "#b3b3b3",
+        "dark": "#828282"
+    },
+    "menu-check-radio-normal": {
+        "ref": "#5cf896",
+        "light": "#c2c2c2",
+        "dark": "#747474"
+    },
+    "menu-check-radio-focus": {
+        "ref": "#6bf9a9",
+        "light": "#b3b3b3",
+        "dark": "#828282"
+    },
+    "scroll-press-fill": {
+        "ref": "#613583",
+        "light": "#787878",
+        "dark": "#b0b0b0"
+    },
+    "scroll-press-edge": {
+        "ref": "#578335",
+        "light": "none",
+        "dark": "#181818"
+    },
+    "scroll-focus-fill": {
+        "ref": "#813d9c",
+        "light": "#9c9c9c",
+        "dark": "#898989"
+    },
+    "scroll-focus-edge": {
+        "ref": "#589c3d",
+        "light": "none",
+        "dark": "#181818"
+    },
+    "scroll-normal-fill": {
+        "ref": "#9141ac",
+        "light": "#e7e7e7",
+        "dark": "#505050"
+    },
+    "scroll-normal-edge": {
+        "ref": "#5cac41",
+        "light": "none",
+        "dark": "#1e1e1e"
+    },
+    "slider-normal-fill": {
+        "ref": "#c061cb",
+        "light": "#ffffff",
+        "dark": "#d2d2d2"
+    },
+    "slider-normal-edge": {
+        "ref": "#6ccb61",
+        "light": "#e2e2e2",
+        "dark": "#acacac"
+    },
+    "slider-focus-fill": {
+        "ref": "#dc8add",
+        "light": "#ffffff",
+        "dark": "#ffffff"
+    },
+    "slider-focus-edge": {
+        "ref": "#8bdd8a",
+        "light": "#e2e2e2",
+        "dark": "#b0b0b0"
+    },
+    "slider-press-fill": {
+        "ref": "#dc60dd",
+        "light": "#ffffff",
+        "dark": "#ffffff"
+    },
+    "slider-press-edge": {
+        "ref": "#8ba28a",
+        "light": "#e2e2e2",
+        "dark": "#b0b0b0"
+    },
+    "slider-disabled-fill": {
+        "ref": "#dc96dd",
+        "light": "#f0f0f0",
+        "dark": "#2f2f2f"
+    },
+    "slider-disabled-edge": {
+        "ref": "#8bddbd",
+        "light": "#cacaca",
+        "dark": "#1d1d1d"
+    },
+    "slider-bar-base-unfilled": {
+        "ref": "#986a44",
+        "light": "#e0e0e0",
+        "dark": "#545454"
+    },
+    "slider-bar-base-filled": {
+        "ref": "#b5835a",
+        "light": "#3584e4",
+        "dark": "#3584e4"
+    },
+    "progress-normal": {
+        "ref": "#3a77a3",
+        "light": "#3584e4",
+        "dark": "#3584e4"
+    },
+    "progress-focused": {
+        "ref": "#5a8cb5",
+        "light": "#3584e4",
+        "dark": "#3584e4"
+    },
+    "progress-pressed": {
+        "ref": "#448c98",
+        "light": "#3584e4",
+        "dark": "#3584e4"
+    },
+    "progress-disabled": {
+        "ref": "#607298",
+        "light": "#3584e4",
+        "dark": "#3584e4"
+    },
+    "menu-fill": {
+        "ref": "#612c63",
+        "light": "#ffffff",
+        "dark": "#383838"
+    },
+    "menu-edge": {
+        "ref": "#2f632c",
+        "light": "none",
+        "dark": "none"
+    },
+    "menu-item": {
+        "ref": "#3f863c",
+        "light": "#ebebeb",
+        "dark": "#4c4c4c"
+    },
+    "menu-tear-normal": {
+        "ref": "#009a7f",
+        "light": "#e0e0e0",
+        "dark": "#565656"
+    },
+    "menu-tear-focus": {
+        "ref": "#dd9aa6",
+        "light": "#dd9aa6",
+        "dark": "#dd9aa6"
+    },
+    "dial-fill": {
+        "ref": "#b46f1a",
+        "light": "#b46f1a",
+        "dark": "#b46f1a"
+    },
+    "dial-edge": {
+        "ref": "#1ab422",
+        "light": "#1ab422",
+        "dark": "#1ab422"
+    },
+    "dial-ticks": {
+        "ref": "#196a44",
+        "light": "#8c8c8c",
+        "dark": "#9c9c9c"
+    },
+    "dial-bar": {
+        "ref": "#986a44",
+        "light": "#986a44",
+        "dark": "#986a44"
+    },
+    "dial-handle-fill": {
+        "ref": "#e49535",
+        "light": "#ffffff",
+        "dark": "#d2d2d2"
+    },
+    "dial-handle-edge": {
+        "ref": "#35e43e",
+        "light": "#e2e2e2",
+        "dark": "#acacac"
+    },
+    "tooltip-fill": {
+        "ref": "#f1c999",
+        "light": "#f1c999",
+        "dark": "#f1c999"
+    },
+    "tooltip-edge": {
+        "ref": "#99f19d",
+        "light": "#99f19d",
+        "dark": "#99f19d"
+    },
+    "window-menu-selection": {
+        "ref": "#cdab8f",
+        "light": "#cdab8f",
+        "dark": "#cdab8f"
+    },
+    "indicator": {
+        "ref": "#2e8836",
+        "light": "#2e8836",
+        "dark": "#2e8836"
+    },
+    "titlebar-normal": {
+        "ref": "#c28836",
+        "light": "#c28836",
+        "dark": "#242424"
+    },
+    "titlebar-focus": {
+        "ref": "#828836",
+        "light": "#ebebeb",
+        "dark": "#303030"
+    },
+    "group-fill": {
+        "ref": "#a9009b",
+        "light": "#ffffff",
+        "dark": "#363636"
+    },
+    "group-edge": {
+        "ref": "#527374",
+        "light": "#527374",
+        "dark": "#527374"
+    },
+    "common-edge": {
+        "ref": "#525e74",
+        "light": "#525e74",
+        "dark": "#525e74"
+    },
+    "tabframe-fill": {
+        "ref": "#a9a99b",
+        "light": "#a9a99b",
+        "dark": "#a9a99b"
+    },
+    "tabframe-edge": {
+        "ref": "#527350",
+        "light": "#527350",
+        "dark": "#527350"
+    },
+    "toolbar-fill": {
+        "ref": "#8f00ff",
+        "light": "#8f00ff",
+        "dark": "#8f00ff"
+    },
+    "toolbar-edge": {
+        "ref": "#59a8b5",
+        "light": "#59a8b5",
+        "dark": "#59a8b5"
+    },
+    "toolbar-handle": {
+        "ref": "#596bb5",
+        "light": "#596bb5",
+        "dark": "#596bb5"
+    },
+    "grip": {
+        "ref": "#59a88e",
+        "light": "#59a88e",
+        "dark": "#59a88e"
+    },
+    "tab-button-focus": {
+        "ref": "#3f797f",
+        "light": "#3f797f",
+        "dark": "#3f797f"
+    },
+    "tab-button-pressed": {
+        "ref": "#00797f",
+        "light": "#00797f",
+        "dark": "#00797f"
+    },
+    "mdi-normal": {
+        "ref": "#52647f",
+        "light": "#52647f",
+        "dark": "#52647f"
+    },
+    "mdi-focus": {
+        "ref": "#3b647f",
+        "light": "#3b647f",
+        "dark": "#3b647f"
+    },
+    "mdi-pressed": {
+        "ref": "#6c647f",
+        "light": "#6c647f",
+        "dark": "#6c647f"
+    },
+    "mdi-disabled": {
+        "ref": "#526477",
+        "light": "#526477",
+        "dark": "#526477"
+    }
+}
