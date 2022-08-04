@@ -1,4 +1,6 @@
 [%General]
+author=Gabriel Perko-Engel
+comment=A Kvantum theme based on Libadwaita
 composite=true
 menu_shadow_depth=12
 tooltip_shadow_depth=0
@@ -43,21 +45,21 @@ alt.base.color=#38bebe
 inactive.alt.base.color=#77cfcf
 button.color=#64ddbc
 light.color=#64ddbc
-mid.light.color=#c37242
-highlight.color=#42c374
+mid.light.color=#527374
+highlight.color=#3584e4
 inactive.highlight.color=#507d61
 tooltip.base.color=#5aeb90
 text.color=#ebc85a
 inactive.text.color=#ab8c2a
-button.text.color=#ab7e2a
-disabled.text.color=#ab652a
-tooltip.text.color=#765132
-highlight.text.color=#a7f744
-inactive.highlight.text.color=#729f3a
-link.color=#9f883a
-link.visited.color=#9f533a
-progress.indicator.text.color=#9f3a94
-progress.inactive.indicator.text.color=#3a9f76
+button.text.color=#ebc85a
+disabled.text.color=#ab8c2a
+tooltip.text.color=#ffffff
+highlight.text.color=#ffffff
+inactive.highlight.text.color=#ffffff
+link.color=#3584e4
+link.visited.color=#3584e4
+progress.indicator.text.color=#3584e4
+progress.inactive.indicator.text.color=#3584e4
 
 [PanelButtonCommand]
 frame.top=9
@@ -114,6 +116,9 @@ frame.right=9
 [PanelButtonTool]
 inherits=PanelButtonCommand
 indicator.size=16
+
+[MenuBar]
+interior.element=titlebar
 
 [MenuBarItem]
 interior.element=menubaritem

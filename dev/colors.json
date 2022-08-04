@@ -1,17 +1,17 @@
 {
     "button-normal": {
         "ref": "#c64600",
-        "light": "#ebebeb",
-        "dark": "#4a4a4a"
+        "light": "#d9d9d9",
+        "dark": "#444444"
     },
     "button-focused": {
         "ref": "#e66100",
-        "light": "#e0e0e0",
+        "light": "#cfcfcf",
         "dark": "#545454"
     },
     "button-pressed": {
         "ref": "#ff7800",
-        "light": "#c2c2c2",
+        "light": "#a9a9a9",
         "dark": "#727272"
     },
     "button-toggled": {
@@ -57,7 +57,7 @@
     "tab-focused-edge": {
         "ref": "#56a07e",
         "light": "#cfcfcf",
-        "dark": "#2d2d2d"
+        "dark": "#4f4f4f"
     },
     "tab-toggled-fill": {
         "ref": "#f800ff",
@@ -76,13 +76,13 @@
     },
     "line-edit-normal-fill": {
         "ref": "#ffbe6f",
-        "light": "#ebebeb",
-        "dark": "#4a4a4a"
+        "light": "#d9d9d9",
+        "dark": "#444444"
     },
     "line-edit-pressed-fill": {
         "ref": "#6fb0ff",
-        "light": "#ebebeb",
-        "dark": "#4a4a4a"
+        "light": "#d9d9d9",
+        "dark": "#444444"
     },
     "line-edit-pressed-edge": {
         "ref": "#6bb184",
@@ -187,7 +187,7 @@
     "slider-normal-edge": {
         "ref": "#6ccb61",
         "light": "#e2e2e2",
-        "dark": "#acacac"
+        "dark": "#1d1d1d"
     },
     "slider-focus-fill": {
         "ref": "#dc8add",
@@ -197,7 +197,7 @@
     "slider-focus-edge": {
         "ref": "#8bdd8a",
         "light": "#e2e2e2",
-        "dark": "#b0b0b0"
+        "dark": "#1d1d1d"
     },
     "slider-press-fill": {
         "ref": "#dc60dd",
@@ -207,12 +207,12 @@
     "slider-press-edge": {
         "ref": "#8ba28a",
         "light": "#e2e2e2",
-        "dark": "#b0b0b0"
+        "dark": "#1d1d1d"
     },
     "slider-disabled-fill": {
         "ref": "#dc96dd",
         "light": "#f0f0f0",
-        "dark": "#2f2f2f"
+        "dark": "#7b7b7b"
     },
     "slider-disabled-edge": {
         "ref": "#8bddbd",
@@ -229,25 +229,45 @@
         "light": "#3584e4",
         "dark": "#3584e4"
     },
-    "progress-normal": {
-        "ref": "#3a77a3",
+    "progress-pattern-normal": {
+        "ref": "#447298",
         "light": "#3584e4",
         "dark": "#3584e4"
     },
-    "progress-focused": {
+    "progress-pattern-focused": {
         "ref": "#5a8cb5",
         "light": "#3584e4",
         "dark": "#3584e4"
     },
-    "progress-pressed": {
+    "progress-pattern-pressed": {
         "ref": "#448c98",
         "light": "#3584e4",
         "dark": "#3584e4"
     },
-    "progress-disabled": {
+    "progress-pattern-disabled": {
         "ref": "#607298",
-        "light": "#3584e4",
-        "dark": "#3584e4"
+        "light": "#97bfef",
+        "dark": "#2c5484"
+    },
+    "progress-normal": {
+        "ref": "#4c7298",
+        "light": "#dcdcdc",
+        "dark": "#454545"
+    },
+    "progress-focused": {
+        "ref": "#5a79b5",
+        "light": "#dcdcdc",
+        "dark": "#454545"
+    },
+    "progress-pressed": {
+        "ref": "#449198",
+        "light": "#dcdcdc",
+        "dark": "#454545"
+    },
+    "progress-disabled": {
+        "ref": "#60728c",
+        "light": "#ebebeb",
+        "dark": "#343434"
     },
     "menu-fill": {
         "ref": "#612c63",
@@ -306,107 +326,137 @@
     },
     "tooltip-fill": {
         "ref": "#f1c999",
-        "light": "#f1c999",
-        "dark": "#f1c999"
+        "light": "#000000",
+        "dark": "#000000"
     },
     "tooltip-edge": {
         "ref": "#99f19d",
-        "light": "#99f19d",
-        "dark": "#99f19d"
+        "light": "#ffffff",
+        "dark": "#ffffff"
     },
     "window-menu-selection": {
         "ref": "#cdab8f",
-        "light": "#cdab8f",
-        "dark": "#cdab8f"
+        "light": "#3584e4",
+        "dark": "#3584e4"
     },
     "indicator": {
         "ref": "#2e8836",
-        "light": "#2e8836",
-        "dark": "#2e8836"
+        "light": "#2f2f2f",
+        "dark": "#ffffff"
     },
     "titlebar-normal": {
         "ref": "#c28836",
-        "light": "#c28836",
-        "dark": "#242424"
+        "light": "#ebebeb",
+        "dark": "#303030"
     },
     "titlebar-focus": {
         "ref": "#828836",
         "light": "#ebebeb",
         "dark": "#303030"
     },
+    "titlebar-inactive": {
+        "ref": "#949e20",
+        "light": "#fafafa",
+        "dark": "#242424"
+    },
     "group-fill": {
         "ref": "#a9009b",
-        "light": "#ffffff",
-        "dark": "#363636"
+        "light": "#fafafa",
+        "dark": "#242424"
     },
     "group-edge": {
         "ref": "#527374",
-        "light": "#527374",
-        "dark": "#527374"
+        "light": "#cfcfcf",
+        "dark": "#4f4f4f"
     },
     "common-edge": {
         "ref": "#525e74",
-        "light": "#525e74",
-        "dark": "#525e74"
+        "light": "#cfcfcf",
+        "dark": "#4f4f4f"
     },
     "tabframe-fill": {
         "ref": "#a9a99b",
-        "light": "#a9a99b",
-        "dark": "#a9a99b"
+        "light": "#fafafa",
+        "dark": "#242424"
     },
     "tabframe-edge": {
         "ref": "#527350",
-        "light": "#527350",
-        "dark": "#527350"
+        "light": "#cfcfcf",
+        "dark": "#4f4f4f"
     },
     "toolbar-fill": {
         "ref": "#8f00ff",
-        "light": "#8f00ff",
-        "dark": "#8f00ff"
+        "light": "#fafafa",
+        "dark": "#242424"
     },
     "toolbar-edge": {
         "ref": "#59a8b5",
-        "light": "#59a8b5",
-        "dark": "#59a8b5"
+        "light": "#cfcfcf",
+        "dark": "#4f4f4f"
     },
     "toolbar-handle": {
         "ref": "#596bb5",
-        "light": "#596bb5",
-        "dark": "#596bb5"
+        "light": "#cfcfcf",
+        "dark": "#4f4f4f"
     },
     "grip": {
         "ref": "#59a88e",
-        "light": "#59a88e",
-        "dark": "#59a88e"
+        "light": "#cfcfcf",
+        "dark": "#4f4f4f"
     },
     "tab-button-focus": {
         "ref": "#3f797f",
-        "light": "#3f797f",
-        "dark": "#3f797f"
+        "light": "#c9c9c9",
+        "dark": "#545454"
     },
     "tab-button-pressed": {
         "ref": "#00797f",
-        "light": "#00797f",
-        "dark": "#00797f"
+        "light": "#c9c9c9",
+        "dark": "#727272"
     },
     "mdi-normal": {
         "ref": "#52647f",
-        "light": "#52647f",
-        "dark": "#52647f"
+        "light": "#d8d8d8",
+        "dark": "#444444"
     },
     "mdi-focus": {
         "ref": "#3b647f",
-        "light": "#3b647f",
-        "dark": "#3b647f"
+        "light": "#cfcfcf",
+        "dark": "#4f4f4f"
     },
     "mdi-pressed": {
         "ref": "#6c647f",
-        "light": "#6c647f",
-        "dark": "#6c647f"
+        "light": "#b3b3b3",
+        "dark": "#6e6e6e"
     },
     "mdi-disabled": {
         "ref": "#526477",
-        "light": "#526477",
-        "dark": "#526477"
+        "light": "#efefef",
+        "dark": "#2e2e2e"
+    },
+    "window-normal": {
+        "ref": "#64ddbc",
+        "light": "#fafafa",
+        "dark": "#242424"
+    },
+    "window-inactive": {
+        "ref": "#63c7ac",
+        "light": "#fafafa",
+        "dark": "#242424"
+    },
+    "text-color-normal": {
+        "ref": "#ebc85a",
+        "light": "#1e1e1e",
+        "dark": "#ffffff"
+    },
+    "text-color-inactive": {
+        "ref": "#ab8c2a",
+        "light": "#8a8a8a",
+        "dark": "#8c8c8c"
+    },
+    "base-color": {
+        "ref": "#45a58b",
+        "light": "#d9d9d9",
+        "dark": "#444444"
     }
 }
