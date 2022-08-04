@@ -13,6 +13,8 @@ Or just copy `src/KvLibadwaita` into `~/.config/Kvantum`.
 
 ## Preview
 
-![Light Version](images/light.png)
+![Combined](images/combo.png)
 
-![Dark Version](images/dark.png)
+![Light Version](images/sliders-light.png)
+
+![Dark Version](images/sliders-dark.png)
