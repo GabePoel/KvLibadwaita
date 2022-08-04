@@ -6,7 +6,7 @@ if [ "$EUID" -ne 0 ]; then
     echo "" # New line
     if [[ $REPLY =~ ^[Yy]$ ]]
     then # Install theme as user
-        cp -R ./src/* ~/.config/Kvantum/
+        cp -r ./src/* ~/.config/Kvantum/
         MESSAGE="Installation complete."
     else # Don't install theme as user
         MESSAGE="Installation aborted."
@@ -17,7 +17,7 @@ else
     echo "" # New line
     if [[ $REPLY =~ ^[Yy]$ ]]
     then # Install theme as user
-        cp -R ./src/* /usr/share/Kvantum/
+        cp -r ./src/* /usr/share/Kvantum/
         MESSAGE="Installation complete."
     else # Don't install theme as user
         MESSAGE="Installation aborted."
