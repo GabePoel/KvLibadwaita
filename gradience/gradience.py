@@ -19,6 +19,11 @@ def create_parser():
         help="Color scheme name"
     )
     parser.add_argument(
+        "--custom",
+        type=str,
+        help="Full path to your.json file which contains custom base16 theme"
+    )
+    parser.add_argument(
         "-v",
         "--version",
         action='version',
@@ -33,7 +38,7 @@ def main():
     parser = create_parser()
     args = parser.parse_args()
 
-    gradience = Gradience(color_scheme=args.color_scheme)
+    gradience = Gradience(color_scheme=args.color_scheme, custom=args.custom)
     gradience.mktheme()
 
 

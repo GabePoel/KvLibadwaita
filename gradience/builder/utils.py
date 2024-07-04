@@ -13,7 +13,7 @@ from builder.settings import (
 
 
 class Gradience(object):
-    def __init__(self, color_scheme="catppuccin_mocha"):
+    def __init__(self, color_scheme="catppuccin_mocha", custom=None):
         self.kvc_src = KVC_SRC
         self.kvc_dst = KVC_DST
         self.svg_src = SVG_SRC
@@ -22,6 +22,7 @@ class Gradience(object):
         self.kvconfig_matcher = KVCONFIG_MATCHER
         self.svg_matcher = SVG_MATCHER
         self.color_scheme = color_scheme
+        self.custom = custom
 
     def _read_file(self, file):
         with open(file, mode="r") as f:
@@ -34,6 +35,13 @@ class Gradience(object):
 
     def _recolor(self, config, matcher):
         scheme = self._read_file(self.base16_dir / f"{self.color_scheme}.json")
+        if self.custom:
+            try:
+                scheme = self._read_file(self.custom)
+            except Exception as error:
+                print(error)
+                exit(1)
+
         color_scheme = json.loads(scheme)
         colors = Color(**color_scheme)
 

@@ -14,11 +14,13 @@ help() {
 	printf "                                                                \n"
 	printf "Options:                                                        \n"
 	printf "                                                                \n"
-	printf " --build     | -b  {theme_name}                                 \n"
-	printf " --install   | -i  {theme_name}                                 \n"
-	printf " --uninstall | -u                                               \n"
-	printf " --version   | -v  print version                                \n"
-	printf " --help      | -h  print this message and exit                  \n"
+	printf " --build            | -b   {theme_name}                         \n"
+	printf " --install          | -i   {theme_name}                         \n"
+	printf " --build-custom     | -bc  full path to custom.json             \n"
+	printf " --install-custom   | -ic  full path to custom.json             \n"
+	printf " --uninstall        | -u   uninstall theme                      \n"
+	printf " --version          | -v   print version                        \n"
+	printf " --help             | -h   print this message and exit          \n"
 	printf "                                                                \n"
 	printf "Examples:                                                       \n"
 	printf "                                                                \n"
@@ -27,7 +29,6 @@ help() {
 	printf "${script} --install nord  the nord theme will be installed      \n"
 	printf "${script} --uninstall     the default theme will be uninstalled \n"
 }
-
 
 
 abort() {
@@ -57,8 +58,19 @@ build() {
 }
 
 
-install () {
+build_custom() {
+	local theme_path="$1"
+	python3 "gradience/gradience.py" "--custom" "${theme_path}"
+	if [ $? -ne 0 ]; then
+		local abort_msg="Installation aborted"
+		abort "${abort_message}"
+	fi
+}
+
+
+install() {
     local theme="$1"
+	local custom_theme_path="$2"
 	local src_path="${_THEME_SRC_PATH}"  # default source path
     local dst_path="${_USER_CONF_PATH}"  # default destination path
     local abort_msg="Installation aborted"
@@ -83,13 +95,16 @@ install () {
 
 	if [ "${theme}" == "adwaita" ]; then
 		cp -r $src_path/* $dst_path
-		echo "${success_msg}"
+	elif [ "${theme}" == "custom" ]; then
+		build_custom "${custom_theme_path}"
+		cp -r $src_path/* $dst_path
 	else
 		build "${theme}"
 		cp -r $src_path/* $dst_path
-		echo "${success_msg}"
 	fi
+	echo "${success_msg}"
 }
+
 
 uninstall() {
 	local dst_path="${_USER_CONF_PATH}"  # default destination path
@@ -127,9 +142,17 @@ optparser() {
 				shift
 				build $1
 				;;
+			--build-custom|-bc)
+				shift
+				build_custom $1
+				;;
 			--install|-i)
 				shift
 				install $1
+				;;
+			--install-custom|-ic)
+				shift
+				install "custom" $1
 				;;
 			--uninstall|-u)
 				uninstall
