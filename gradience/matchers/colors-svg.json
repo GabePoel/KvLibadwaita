@@ -1,38 +1,178 @@
 {
-    "#000000": "base00",
-    "#1e1e1e": "base00",
-    "#212121": "base01",
-    "#242424": "base01",
-    "#2c2c2c": "base01",
-    "#303030": "base01",
-    "#31363b": "base01",
-    "#3d3d3d": "base01",
-    "#404040": "base02",
-    "#414141": "base02",
-    "#444444": "base02",
-    "#4b4b4b": "base02",
-    "#4f4f4f": "base02",
-    "#525252": "base03",
-    "#5a5a5a": "base03",
-    "#616161": "base03",
-    "#666666": "base03",
-    "#6e6e6e": "base03",
-    "#707070": "base03",
-    "#797979": "base04",
-    "#989898": "base04",
-    "#587392": "base04",
-    "#5a616e": "base04",
-    "#c1c1c1": "base04",
-    "#dfdfdf": "base05",
-    "#eff0f1": "base05",
-    "#fcfcfc": "base05",
-    "#f2ffff": "base06",
-    "#fff": "base07",
-    "#f04a50": "base08",
-    "#93cee9": "base0C",
-    "#3daee9": "base0C",
-    "#4990e7": "base0D",
-    "#4285f4": "base0D",
-    "#3584e4": "base0D",
-    "#b74aff": "base0E"
+    "#1e1e1e": {
+        "ref": "base00",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#212121": {
+        "ref": "base00",
+        "chanel": "lightness",
+        "value": 1
+    },
+    "#242424": {
+        "ref": "base00",
+        "chanel": "lightness",
+        "value": 2
+    },
+    "#2c2c2c": {
+        "ref": "base00",
+        "chanel": "lightness",
+        "value": 5
+    },
+    "#303030": {
+        "ref": "base00",
+        "chanel": "lightness",
+        "value": 7
+    },
+    "#3d3d3d": {
+        "ref": "base00",
+        "chanel": "lightness",
+        "value": 12
+    },
+    "#404040": {
+        "ref": "base00",
+        "chanel": "lightness",
+        "value": 13
+    },
+    "#414141": {
+        "ref": "base00",
+        "chanel": "lightness",
+        "value": 13
+    },
+    "#444444": {
+        "ref": "base00",
+        "chanel": "lightness",
+        "value": 15
+    },
+    "#4b4b4b": {
+        "ref": "base00",
+        "chanel": "lightness",
+        "value": 17
+    },
+    "#4f4f4f": {
+        "ref": "base00",
+        "chanel": "lightness",
+        "value": 19
+    },
+    "#525252": {
+        "ref": "base00",
+        "chanel": "lightness",
+        "value": 20
+    },
+    "#5a5a5a": {
+        "ref": "base00",
+        "chanel": "lightness",
+        "value": 23
+    },
+    "#616161": {
+        "ref": "base00",
+        "chanel": "lightness",
+        "value": 26
+    },
+    "#666666": {
+        "ref": "base00",
+        "chanel": "lightness",
+        "value": 28
+    },
+    "#6e6e6e": {
+        "ref": "base00",
+        "chanel": "lightness",
+        "value": 31
+    },
+    "#707070": {
+        "ref": "base00",
+        "chanel": "lightness",
+        "value": 32
+    },
+    "#797979": {
+        "ref": "base00",
+        "chanel": "lightness",
+        "value": 35
+    },
+    "#989898": {
+        "ref": "base00",
+        "chanel": "lightness",
+        "value": 48
+    },
+    "#31363b": {
+        "ref": "base04",
+        "chanel": "lightness",
+        "value": 0
+    },
+
+    "#5a616e": {
+        "ref": "base04",
+        "chanel": "lightness",
+        "value": 18
+    },
+    "#587392": {
+        "ref": "base04",
+        "chanel": "lightness",
+        "value": 25
+    },
+    "#c1c1c1": {
+        "ref": "base00",
+        "chanel": "lightness",
+        "value": 64
+    },
+    "#dfdfdf": {
+        "ref": "base05",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#eff0f1": {
+        "ref": "base06",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#fcfcfc": {
+        "ref": "base06",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#f2ffff": {
+        "ref": "base06",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#fff": {
+        "ref": "base07",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#f04a50": {
+        "ref": "base08",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#93cee9": {
+        "ref": "base0C",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#3daee9": {
+        "ref": "base0C",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#4990e7": {
+        "ref": "base0D",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#4285f4": {
+        "ref": "base0D",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#3584e4": {
+        "ref": "base0D",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#b74aff": {
+        "ref": "base0E",
+        "chanel": "lightness",
+        "value": 0
+    }
 }

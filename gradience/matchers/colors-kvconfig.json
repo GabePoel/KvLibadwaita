@@ -1,17 +1,77 @@
 {   
-    "#282828": "base00",
-    "#2c2c2c": "base01",
-    "#2e2e2e": "base02",
-    "#323232": "base03",
-    "#474747": "base04",
-    "#4d4d4d": "base04",
-    "#535353": "base04",
-    "#696969": "base04",
-    "#dfdfdf": "base05",
-    "#efefef": "base06",
-    "#ffffff": "base07",
-    "white": "base07",
-    "#0057AE": "base0C",
-    "#3584e4": "base0D",
-    "#E040FB": "base0E"
+    "#282828": {
+        "ref": "base00",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#2c2c2c": {
+        "ref": "base00",
+        "chanel": "lightness",
+        "value": 1
+    },
+    "#2e2e2e": {
+        "ref": "base00",
+        "chanel": "lightness",
+        "value": 2
+    },
+    "#323232": {
+        "ref": "base00",
+        "chanel": "lightness",
+        "value": 4
+    },
+    "#4d4d4d": {
+        "ref": "base00",
+        "chanel": "lightness",
+        "value": 14
+    },
+    "#474747": {
+        "ref": "base00",
+        "chanel": "lightness",
+        "value": 16
+    },
+    "#535353": {
+        "ref": "base00",
+        "chanel": "lightness",
+        "value": 17
+    },
+    "#696969": {
+        "ref": "base00",
+        "chanel": "lightness",
+        "value": 25
+    },
+    "#dfdfdf": {
+        "ref": "base05",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#efefef": {
+        "ref": "base06",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#ffffff": {
+        "ref": "base07",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "white": {
+        "ref": "base07",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#0057AE": {
+        "ref": "base0D",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#3584e4": {
+        "ref": "base0D",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#E040FB": {
+        "ref": "base0E",
+        "chanel": "lightness",
+        "value": 0
+    }
 }

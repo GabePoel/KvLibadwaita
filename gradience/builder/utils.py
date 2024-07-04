@@ -1,5 +1,6 @@
 import json
 
+from builder.colors import Color
 from builder.settings import (
     BASE16_DIR,
     KVC_SRC,
@@ -34,9 +35,20 @@ class Gradience(object):
     def _recolor(self, config, matcher):
         scheme = self._read_file(self.base16_dir / f"{self.color_scheme}.json")
         color_scheme = json.loads(scheme)
+        colors = Color(**color_scheme)
 
-        for color, base in matcher.items():
-            new_color = color_scheme[base]
+        for color in matcher:
+            ref = matcher[color]["ref"]
+            chanel = matcher[color]["chanel"]
+            value = matcher[color]["value"]
+            shift_color = colors.scheme[ref]
+            if chanel == "saturation":
+                new_color = colors.saturation(color=shift_color, shift=value)
+            elif chanel == "hue":
+                new_color = colors.hue(color=shift_color, shift=value)
+            else:
+                new_color = colors.lightness(color=shift_color, shift=value)
+            # replace color:
             config = config.replace(color, new_color, -1)
 
         return config
