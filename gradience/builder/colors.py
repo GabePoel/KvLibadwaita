@@ -246,3 +246,12 @@ class Color(object):
         else:
             l = self._check_range((l + (shift / 100)))  # noqa: E741
         return self.hsl_to_hex(h, s, l)
+
+    @property
+    def variant(self):
+        base00 = self.hex_to_hsl(self.scheme["base00"])
+        if base00[2] > 0.5:
+            variant = "light"
+        else:
+            variant = "dark"
+        return variant

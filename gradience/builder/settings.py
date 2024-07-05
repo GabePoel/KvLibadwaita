@@ -11,11 +11,18 @@ MATCHERS_DIR = SELF_DIR / "matchers"
 RESULT_DIR = SELF_DIR / "result"
 
 # Config files:
-KVC_SRC = SRC_DIR / "KvLibadwaitaDark.kvconfig"
+KVC_DARK_SRC = SRC_DIR / "KvLibadwaitaDark.kvconfig"
+SVG_DARK_SRC = SRC_DIR / "KvLibadwaitaDark.svg"
+
+KVC_LIGHT_SRC = SRC_DIR / "KvLibadwaita.kvconfig"
+SVG_LIGHT_SRC = SRC_DIR / "KvLibadwaita.svg"
+
 KVC_DST = RESULT_DIR / "KvLibadwaita" / "KvLibadwaita.kvconfig"
-SVG_SRC = SRC_DIR / "KvLibadwaitaDark.svg"
 SVG_DST = RESULT_DIR / "KvLibadwaita" / "KvLibadwaita.svg"
 
 # Matchers:
-KVCONFIG_MATCHER = MATCHERS_DIR / "colors-kvconfig.json"
-SVG_MATCHER = MATCHERS_DIR / "colors-svg.json"
+KVC_DARK_MATCHER = MATCHERS_DIR / "colors-dark-kvconfig.json"
+SVG_DARK_MATCHER = MATCHERS_DIR / "colors-dark-svg.json"
+
+KVC_LIGHT_MATCHER = MATCHERS_DIR / "colors-light-kvconfig.json"
+SVG_LIGHT_MATCHER = MATCHERS_DIR / "colors-light-svg.json"
