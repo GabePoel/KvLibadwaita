@@ -5,7 +5,8 @@ _VERSION="2.0"
 _SCRIPT_NAME="$0"
 _THEME_SRC_PATH="src"
 _SYSTEM_CONF_PATH="/usr/share/Kvantum"
-_USER_CONF_PATH="${HOME}/.config/Kvantum"
+_USER_CONF_PATH="$HOME/.config/Kvantum"
+_NO_ASK=false
 
 
 help() {
@@ -14,19 +15,19 @@ help() {
 	printf "                                                                \n"
 	printf "Options:                                                        \n"
 	printf "                                                                \n"
-	printf " --build            | -b   {theme_name}                         \n"
-	printf " --install          | -i   {theme_name}                         \n"
-	printf " --build-custom     | -bc  full path to custom.json             \n"
-	printf " --install-custom   | -ic  full path to custom.json             \n"
-	printf " --uninstall        | -u   uninstall theme                      \n"
-	printf " --version          | -v   print version                        \n"
-	printf " --help             | -h   print this message and exit          \n"
+	printf " --no-ask    | -na  don't ask for confirmation                  \n"
+	printf " --build     | -b   {theme_name}                                \n"
+	printf " --install   | -i   {theme_name}                                \n"
+	printf " --uninstall | -u   uninstall theme                             \n"
+	printf " --version   | -v   print version                               \n"
+	printf " --help      | -h   print this message and exit                 \n"
 	printf "                                                                \n"
 	printf "Examples:                                                       \n"
 	printf "                                                                \n"
 	printf "${script} --build nord    the nord theme will be built          \n"
 	printf "${script} --install       the default theme will be installed   \n"
 	printf "${script} --install nord  the nord theme will be installed      \n"
+	printf "${script} --install custom ~/my-base16.json                     \n"
 	printf "${script} --uninstall     the default theme will be uninstalled \n"
 }
 
@@ -50,17 +51,14 @@ continue_handler() {
 
 build() {
 	local theme="$1"
-	python3 "gradience/gradience.py" "--theme" "${theme}"
-	if [ $? -ne 0 ]; then
-		local abort_msg="Installation aborted"
-		abort "${abort_message}"
+	local custom_theme_path="$2"
+
+	if [ "${theme}" == "custom" ]; then
+		echo "${custom_theme_path}"
+		python3 "gradience/gradience.py" "--custom" $custom_theme_path
+	else
+		python3 "gradience/gradience.py" "--theme" $theme
 	fi
-}
-
-
-build_custom() {
-	local theme_path="$1"
-	python3 "gradience/gradience.py" "--custom" "${theme_path}"
 	if [ $? -ne 0 ]; then
 		local abort_msg="Installation aborted"
 		abort "${abort_message}"
@@ -84,22 +82,19 @@ install() {
 		theme="adwaita"
     fi
 
-    if [ "$EUID" -ne 0 ]; then
-        local msg="Install KvLibadwaita ${gradience_msg}in ${dst_path}?"
-        continue_handler "${msg}" "${abort_msg}"
-    else
-		dst_path="${_SYSTEM_CONF_PATH}"
-        local msg="Install KvLibadwaita ${gradience_msg}in ${dst_path}?"
-        continue_handler "${msg}" "${abort_msg}"
-    fi
+    if [ "$EUID" -eq 0 ]; then
+        dst_path="${_SYSTEM_CONF_PATH}"
+	fi
+
+	if ! $_NO_ASK; then
+		local msg="Install KvLibadwaita ${gradience_msg}in ${dst_path}?"
+		continue_handler "${msg}" "${abort_msg}"
+	fi
 
 	if [ "${theme}" == "adwaita" ]; then
 		cp -r $src_path/* $dst_path
-	elif [ "${theme}" == "custom" ]; then
-		build_custom "${custom_theme_path}"
-		cp -r $src_path/* $dst_path
 	else
-		build "${theme}"
+		build "${theme}" "${custom_theme_path}"
 		cp -r $src_path/* $dst_path
 	fi
 	echo "${success_msg}"
@@ -111,14 +106,14 @@ uninstall() {
 	local abort_msg="Uninstallation aborted"
 	local success_msg="Uninstallation complete"
 
-    if [ "$EUID" -ne 0 ]; then
-        local msg="Uninstall KvLibadwaita from ${dst_path}?"
-        continue_handler "${msg}" "${abort_msg}"
-    else
-		dst_path="${_SYSTEM_CONF_PATH}"
-        local msg="Uninstall KvLibadwaita from ${dst_path}?"
-        continue_handler "${msg}" "${abort_msg}"
-    fi
+    if [ "$EUID" -eq 0 ]; then
+        dst_path="${_SYSTEM_CONF_PATH}"
+	fi
+
+	if ! $_NO_ASK; then
+		local msg="Uninstall KvLibadwaita from ${dst_path}?"
+		continue_handler "${msg}" "${abort_msg}"
+	fi
 
 	rm -r $dst_path/KvLibadwaita
 	echo "${success_msg}"
@@ -138,21 +133,18 @@ optparser() {
 	# parse opts:
 	while [ ! -z "$1" ]; do
 		case "$1" in
+			--no-ask|-na)
+				_NO_ASK=true
+				;;		
 			--build|-b)
 				shift
-				build $1
-				;;
-			--build-custom|-bc)
-				shift
-				build_custom $1
+				build $1 $2
+				exit 0
 				;;
 			--install|-i)
 				shift
-				install $1
-				;;
-			--install-custom|-ic)
-				shift
-				install "custom" $1
+				install $1 $2
+				exit 0
 				;;
 			--uninstall|-u)
 				uninstall
