@@ -487,7 +487,7 @@
      r="5"
      class="ColorScheme-Highlight"
      fill="currentColor"
-     style="fill:#e62d42;fill-opacity:1" />
+     style="fill:#3584e4;fill-opacity:1" />
   <g
      id="button-default-indicator"
      transform="translate(-367.5 -2.5001)">
@@ -561,7 +561,7 @@
   <path
      id="expand-progress-pattern-normal"
      d="m 0,170 v 10 h 10 v -10 z"
-     style="fill:#e62d42;fill-opacity:1" />
+     style="fill:#3584e4;fill-opacity:1" />
   <path
      id="expand-progress-normal"
      d="m 0,180 v 10 h 10 v -10 z"
@@ -926,7 +926,7 @@
      height="12"
      class="ColorScheme-Highlight"
      fill="currentColor"
-     style="fill:#e62d42;fill-opacity:1" />
+     style="fill:#3584e4;fill-opacity:1" />
   <rect
      id="progress-pattern-normal-bottom"
      x="32"
@@ -935,7 +935,7 @@
      height="12"
      class="ColorScheme-Highlight"
      fill="currentColor"
-     style="fill:#e62d42;fill-opacity:1" />
+     style="fill:#3584e4;fill-opacity:1" />
   <rect
      id="progress-pattern-normal-topleft"
      x="20"
@@ -944,7 +944,7 @@
      height="12"
      class="ColorScheme-Highlight"
      fill="currentColor"
-     style="fill:#e62d42;fill-opacity:1" />
+     style="fill:#3584e4;fill-opacity:1" />
   <rect
      id="progress-pattern-normal-topright"
      x="44"
@@ -953,7 +953,7 @@
      height="12"
      class="ColorScheme-Highlight"
      fill="currentColor"
-     style="fill:#e62d42;fill-opacity:1" />
+     style="fill:#3584e4;fill-opacity:1" />
   <rect
      id="progress-pattern-normal-bottomleft"
      x="20"
@@ -962,7 +962,7 @@
      height="12"
      class="ColorScheme-Highlight"
      fill="currentColor"
-     style="fill:#e62d42;fill-opacity:1" />
+     style="fill:#3584e4;fill-opacity:1" />
   <rect
      id="progress-pattern-normal-bottomright"
      x="44"
@@ -971,7 +971,7 @@
      height="12"
      class="ColorScheme-Highlight"
      fill="currentColor"
-     style="fill:#e62d42;fill-opacity:1" />
+     style="fill:#3584e4;fill-opacity:1" />
   <rect
      id="progress-normal-top"
      x="71"
@@ -1067,7 +1067,7 @@
        id="rect186"
        class="ColorScheme-Highlight"
        fill="currentColor"
-       style="fill:#e62d42;fill-opacity:1" />
+       style="fill:#3584e4;fill-opacity:1" />
   </g>
   <g
      id="progress-pattern-normal-left"
@@ -1080,7 +1080,7 @@
        id="rect189"
        class="ColorScheme-Highlight"
        fill="currentColor"
-       style="fill:#e62d42;fill-opacity:1" />
+       style="fill:#3584e4;fill-opacity:1" />
   </g>
   <g
      id="progress-pattern-normal-right"
@@ -1093,7 +1093,7 @@
        id="rect192"
        class="ColorScheme-Highlight"
        fill="currentColor"
-       style="fill:#e62d42;fill-opacity:1" />
+       style="fill:#3584e4;fill-opacity:1" />
   </g>
   <g
      id="progress-normal-left"
@@ -2875,7 +2875,7 @@
        id="circle741"
        class="ColorScheme-Highlight"
        fill="currentColor"
-       style="fill:#e62d42;fill-opacity:1" />
+       style="fill:#3584e4;fill-opacity:1" />
     <circle
        cx="328"
        cy="416"
@@ -2904,7 +2904,7 @@
        class="ColorScheme-Highlight"
        d="M 412 280 A 8 8 0 0 0 404 288 A 8 8 0 0 0 412 296 A 8 8 0 0 0 420 288 A 8 8 0 0 0 412 280 z M 412 283 A 5 5 0 0 1 417 288 A 5 5 0 0 1 412 293 A 5 5 0 0 1 407 288 A 5 5 0 0 1 412 283 z "
        transform="translate(-40,128)"
-       style="fill:#e62d42;fill-opacity:1" />
+       style="fill:#3584e4;fill-opacity:1" />
     <circle
        cx="372"
        cy="416"
@@ -2933,7 +2933,7 @@
        class="ColorScheme-Highlight"
        d="M 390 280 A 8 8 0 0 0 382 288 A 8 8 0 0 0 390 296 A 8 8 0 0 0 398 288 A 8 8 0 0 0 390 280 z M 390 282 A 6 6 0 0 1 396 288 A 6 6 0 0 1 390 294 A 6 6 0 0 1 384 288 A 6 6 0 0 1 390 282 z "
        transform="translate(-40,128)"
-       style="fill:#e62d42;fill-opacity:1" />
+       style="fill:#3584e4;fill-opacity:1" />
     <circle
        cx="350"
        cy="416"
@@ -2956,7 +2956,7 @@
        class="ColorScheme-Highlight"
        d="M 368 303 C 364.1577 303 361 306.1577 361 310 C 361 313.8423 364.1577 317 368 317 L 368.00195 317 L 368.00391 317 C 369.81032 316.99711 371.54284 316.29331 372.8418 315.04492 L 372.89844 315.00195 L 377.80078 310 L 376.42773 308.59961 L 373.0293 305.13281 C 371.71154 303.77081 369.89527 303.00042 368 303 z M 368 305 C 369.3543 305.0003 370.65015 305.55011 371.5918 306.52344 L 375 310 L 371.57617 313.49414 C 371.57217 313.49714 371.5665 313.498 371.5625 313.5 C 370.6239 314.45706 369.3405 314.998 368 315 C 365.2386 315 363 312.7614 363 310 C 363 307.2386 365.2386 305 368 305 z "
        transform="translate(-40,128)"
-       style="fill:#e62d42;fill-opacity:1" />
+       style="fill:#3584e4;fill-opacity:1" />
     <path
        d="m 335,438 -3.4079,-3.4767 c -0.94165,-0.97333 -2.2378,-1.5231 -3.5921,-1.5234 -2.7614,0 -5,2.2386 -5,5 0,2.7614 2.2386,5 5,5 1.3405,-0.002 2.6242,-0.54194 3.5628,-1.499 0.004,-0.002 0.009,-0.004 0.013,-0.007 z"
        id="path53561"
@@ -2981,7 +2981,7 @@
      height="8"
      class="ColorScheme-Highlight"
      fill="currentColor"
-     style="fill:#e62d42;fill-opacity:1" />
+     style="fill:#3584e4;fill-opacity:1" />
   <rect
      id="slider-toggled-bottomright"
      x="290.95"
@@ -2990,7 +2990,7 @@
      height="8"
      class="ColorScheme-Highlight"
      fill="currentColor"
-     style="fill:#e62d42;fill-opacity:1" />
+     style="fill:#3584e4;fill-opacity:1" />
   <rect
      id="slider-toggled-topleft"
      x="282.95"
@@ -2999,7 +2999,7 @@
      height="8"
      class="ColorScheme-Highlight"
      fill="currentColor"
-     style="fill:#e62d42;fill-opacity:1" />
+     style="fill:#3584e4;fill-opacity:1" />
   <rect
      id="slider-toggled-bottomleft"
      x="282.95"
@@ -3008,7 +3008,7 @@
      height="8"
      class="ColorScheme-Highlight"
      fill="currentColor"
-     style="fill:#e62d42;fill-opacity:1" />
+     style="fill:#3584e4;fill-opacity:1" />
   <rect
      id="slider-normal-topright"
      x="310.95"
@@ -3048,7 +3048,7 @@
        id="rect802"
        class="ColorScheme-Highlight"
        fill="currentColor"
-       style="fill:#e62d42;fill-opacity:1" />
+       style="fill:#3584e4;fill-opacity:1" />
   </g>
   <g
      id="slider-toggled-left"
@@ -3061,7 +3061,7 @@
        id="rect805"
        class="ColorScheme-Highlight"
        fill="currentColor"
-       style="fill:#e62d42;fill-opacity:1" />
+       style="fill:#3584e4;fill-opacity:1" />
   </g>
   <g
      id="slider-normal-left"
@@ -3082,7 +3082,7 @@
      height="15"
      class="ColorScheme-Highlight"
      fill="currentColor"
-     style="fill:#e62d42;fill-opacity:1" />
+     style="fill:#3584e4;fill-opacity:1" />
   <g
      id="menuitem-tearoff-focused"
      transform="translate(83.742 -272.34)">
@@ -3099,7 +3099,7 @@
        id="path814"
        class="ColorScheme-Highlight"
        fill="currentColor"
-       style="fill:#e62d42;fill-opacity:1" />
+       style="fill:#3584e4;fill-opacity:1" />
   </g>
   <g
      id="menuitem-tearoff-normal"
@@ -4883,7 +4883,7 @@
        id="path64497"
        class="ColorScheme-Highlight"
        d="M 390 303 C 386.1577 303 383 306.1577 383 310 C 383 313.8423 386.1577 317 390 317 L 390.00195 317 L 390.00391 317 C 391.81032 316.99711 393.54284 316.29331 394.8418 315.04492 L 394.89844 315.00195 L 399.80078 310 L 398.42773 308.59961 L 395.0293 305.13281 C 393.71154 303.77081 391.89527 303.00042 390 303 z M 390 305 C 391.3543 305.0003 392.65015 305.55011 393.5918 306.52344 L 397 310 L 393.57617 313.49414 C 393.57217 313.49714 393.5665 313.498 393.5625 313.5 C 392.6239 314.45706 391.3405 314.998 390 315 C 387.2386 315 385 312.7614 385 310 C 385 307.2386 387.2386 305 390 305 z "
-       style="fill:#e62d42;fill-opacity:1" />
+       style="fill:#3584e4;fill-opacity:1" />
     <path
        d="m 397,310.0001 -3.4079,-3.4767 C 392.65045,305.55007 391.3543,305.0003 390,305 c -2.7614,0 -5,2.2386 -5,5 0,2.7614 2.2386,5 5,5 1.3405,-0.002 2.6242,-0.54194 3.5628,-1.499 0.004,-0.002 0.009,-0.004 0.013,-0.007 z"
        id="path64499"
@@ -4903,7 +4903,7 @@
        class="ColorScheme-Highlight"
        d="M 412.19922 303 C 408.35692 303 405.19922 306.1577 405.19922 310 C 405.19922 313.8423 408.35692 317 412.19922 317 L 412.20117 317 L 412.20312 317 C 414.00954 316.99711 415.74206 316.29331 417.04102 315.04492 L 417.09766 315.00195 L 422 310 L 420.62695 308.59961 L 417.22852 305.13281 C 415.91076 303.77081 414.09449 303.00042 412.19922 303 z M 412.40039 306 C 413.48383 306.00024 414.52012 306.44009 415.27344 307.21875 L 418 310 L 415.25977 312.79492 C 415.25637 312.79792 415.253 312.79878 415.25 312.80078 C 414.49912 313.56643 413.47279 313.998 412.40039 314 C 410.19127 314 408.40039 312.20912 408.40039 310 C 408.40039 307.79088 410.19127 306 412.40039 306 z "
        transform="translate(-22.2,8e-5)"
-       style="fill:#e62d42;fill-opacity:1" />
+       style="fill:#3584e4;fill-opacity:1" />
     <path
        d="m 395.8,310.00008 -2.72632,-2.78136 C 392.32036,306.44006 391.28344,306.00024 390.2,306 c -2.20912,0 -4,1.79088 -4,4 0,2.20912 1.79088,4 4,4 1.0724,-0.002 2.09936,-0.43355 2.85024,-1.1992 0.003,-0.002 0.007,-0.003 0.0104,-0.006 z"
        id="path64792"
@@ -4921,7 +4921,7 @@
        id="rect64880" />
     <path
        id="circle64882"
-       style="opacity:0.35;fill:#e62d42;fill-opacity:1"
+       style="opacity:0.35;fill:#3584e4;fill-opacity:1"
        class="ColorScheme-Highlight"
        d="M 345 280 A 8 8 0 0 0 337 288 A 8 8 0 0 0 345 296 A 8 8 0 0 0 353 288 A 8 8 0 0 0 345 280 z M 345 282 A 6 6 0 0 1 351 288 A 6 6 0 0 1 345 294 A 6 6 0 0 1 339 288 A 6 6 0 0 1 345 282 z "
        transform="translate(-17,128)" />
@@ -4944,7 +4944,7 @@
        id="rect64888" />
     <path
        id="path64890"
-       style="opacity:0.35;fill:#e62d42;fill-opacity:1"
+       style="opacity:0.35;fill:#3584e4;fill-opacity:1"
        class="ColorScheme-Highlight"
        d="M 345 303 C 341.1577 303 338 306.1577 338 310 C 338 313.8423 341.1577 317 345 317 L 345.00195 317 L 345.00391 317 C 346.81032 316.99711 348.54284 316.29331 349.8418 315.04492 L 349.89844 315.00195 L 354.80078 310 L 353.42773 308.59961 L 350.0293 305.13281 C 348.71154 303.77081 346.89527 303.00042 345 303 z M 345 305 C 346.3543 305.0003 347.65015 305.55011 348.5918 306.52344 L 352 310 L 348.57617 313.49414 C 348.57217 313.49714 348.5665 313.498 348.5625 313.5 C 347.6239 314.45706 346.3405 314.998 345 315 C 342.2386 315 340 312.7614 340 310 C 340 307.2386 342.2386 305 345 305 z "
        transform="translate(-17,128)" />
@@ -6229,7 +6229,7 @@
      id="menu-checkbox-checked-normal"
      transform="translate(13.999999,-16.000013)">
     <rect
-       style="fill:#e62d42;fill-opacity:1;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:3.3;paint-order:fill markers stroke"
+       style="fill:#3584e4;fill-opacity:1;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:3.3;paint-order:fill markers stroke"
        id="rect1988"
        width="16"
        height="16"
@@ -6261,7 +6261,7 @@
      id="menu-checkbox-tristate-normal"
      transform="translate(53.999999,-16.000013)">
     <rect
-       style="fill:#e62d42;fill-opacity:1;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:3.3;paint-order:fill markers stroke"
+       style="fill:#3584e4;fill-opacity:1;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:3.3;paint-order:fill markers stroke"
        id="rect1988-3-2"
        width="16"
        height="16"
@@ -6365,7 +6365,7 @@
      id="menu-radio-checked-normal"
      transform="translate(38.999998,-5.999988)">
     <circle
-       style="fill:#e62d42;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:3.3;paint-order:fill markers stroke"
+       style="fill:#3584e4;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:3.3;paint-order:fill markers stroke"
        id="path5882-3-2"
        cx="308"
        cy="113"
@@ -6461,7 +6461,7 @@
        y="122"
        ry="0" />
     <rect
-       style="fill:#e62d42;fill-opacity:1;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:3.3;paint-order:fill markers stroke"
+       style="fill:#3584e4;fill-opacity:1;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:3.3;paint-order:fill markers stroke"
        id="rect1988-9"
        width="16"
        height="16"
@@ -6509,7 +6509,7 @@
        y="122"
        ry="0" />
     <rect
-       style="fill:#e62d42;fill-opacity:1;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:3.3;paint-order:fill markers stroke"
+       style="fill:#3584e4;fill-opacity:1;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:3.3;paint-order:fill markers stroke"
        id="rect1988-3-2-6"
        width="16"
        height="16"
@@ -6605,7 +6605,7 @@
        y="122"
        ry="0" />
     <circle
-       style="fill:#e62d42;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:3.3;paint-order:fill markers stroke"
+       style="fill:#3584e4;fill-opacity:1;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:3.3;paint-order:fill markers stroke"
        id="path5882-3-2-6"
        cx="287"
        cy="134"
