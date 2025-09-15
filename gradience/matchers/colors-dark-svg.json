@@ -1,0 +1,173 @@
+{
+    "#1e1e1e": {
+        "ref": "base00",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#212121": {
+        "ref": "base00",
+        "chanel": "lightness",
+        "value": 1
+    },
+    "#242424": {
+        "ref": "base00",
+        "chanel": "lightness",
+        "value": 2
+    },
+    "#2c2c2c": {
+        "ref": "base00",
+        "chanel": "lightness",
+        "value": 3
+    },
+    "#303030": {
+        "ref": "base01",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#3d3d3d": {
+        "ref": "base01",
+        "chanel": "lightness",
+        "value": 3
+    },
+    "#404040": {
+        "ref": "base01",
+        "chanel": "lightness",
+        "value": 5
+    },
+    "#414141": {
+        "ref": "base01",
+        "chanel": "lightness",
+        "value": 6
+    },
+    "#444444": {
+        "ref": "base01",
+        "chanel": "lightness",
+        "value": 8
+    },
+    "#4b4b4b": {
+        "ref": "base02",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#4f4f4f": {
+        "ref": "base02",
+        "chanel": "lightness",
+        "value": 1
+    },
+    "#525252": {
+        "ref": "base02",
+        "chanel": "lightness",
+        "value": 2
+    },
+    "#5a5a5a": {
+        "ref": "base02",
+        "chanel": "lightness",
+        "value": 4
+    },
+    "#616161": {
+        "ref": "base02",
+        "chanel": "lightness",
+        "value": 6
+    },
+    "#666666": {
+        "ref": "base02",
+        "chanel": "lightness",
+        "value": 8
+    },
+    "#6e6e6e": {
+        "ref": "base02",
+        "chanel": "lightness",
+        "value": 10
+    },
+    "#707070": {
+        "ref": "base03",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#797979": {
+        "ref": "base03",
+        "chanel": "lightness",
+        "value": 5
+    },
+    "#989898": {
+        "ref": "base03",
+        "chanel": "lightness",
+        "value": 8
+    },
+    "#c1c1c1": {
+        "ref": "base03",
+        "chanel": "lightness",
+        "value": 10
+    },
+    "#31363b": {
+        "ref": "base04",
+        "chanel": "lightness",
+        "value": 0
+    },
+
+    "#5a616e": {
+        "ref": "base04",
+        "chanel": "lightness",
+        "value": 18
+    },
+    "#587392": {
+        "ref": "base04",
+        "chanel": "lightness",
+        "value": 25
+    },
+    "#dfdfdf": {
+        "ref": "base05",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#eff0f1": {
+        "ref": "base06",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#fcfcfc": {
+        "ref": "base06",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#f2ffff": {
+        "ref": "base06",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#f04a50": {
+        "ref": "base08",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#93cee9": {
+        "ref": "base0C",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#3daee9": {
+        "ref": "base0C",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#4990e7": {
+        "ref": "base0D",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#4285f4": {
+        "ref": "base0D",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#3584e4": {
+        "ref": "base0D",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#b74aff": {
+        "ref": "base0E",
+        "chanel": "lightness",
+        "value": 0
+    }
+}

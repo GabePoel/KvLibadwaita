@@ -1,0 +1,20 @@
+{
+  "scheme": "falcon",
+  "author": "https://github.com/fenetikm/falcon",
+  "base00": "#020222",
+  "base01": "#0b0b2b",
+  "base02": "#161636",
+  "base03": "#202040",
+  "base04": "#e4e4eb",
+  "base05": "#eeeef5",
+  "base06": "#f3f3fa",
+  "base07": "#F8F8FF",
+  "base08": "#BFDAFF",
+  "base09": "#B4B4B9",
+  "base0A": "#FFC552",
+  "base0B": "#C8D0E3",
+  "base0C": "#B4B4B9",
+  "base0D": "#FFC552",
+  "base0E": "#8BCCBF",
+  "base0F": "#DFDFE5"
+}

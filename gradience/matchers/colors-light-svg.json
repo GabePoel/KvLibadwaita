@@ -1,0 +1,117 @@
+{
+    "#f9ffff": {
+        "ref": "base00",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#f2ffff": {
+        "ref": "base00",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#fafafa": {
+        "ref": "base00",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#ebebeb": {
+        "ref": "base02",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#e6e6e6": {
+        "ref": "base02",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#cfcfcf": {
+        "ref": "base03",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#bfbfbf": {
+        "ref": "base03",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#bdbdbd": {
+        "ref": "base04",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#b3b3b3": {
+        "ref": "base04",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#b0b0b0": {
+        "ref": "base04",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#a9a9a9": {
+        "ref": "base04",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#a6a6a6": {
+        "ref": "base04",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#666666": {
+        "ref": "base05",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#5a5a5a": {
+        "ref": "base05",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#444444": {
+        "ref": "base06",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#333333": {
+        "ref": "base07",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#f04a50": {
+        "ref": "base08",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#81abdf": {
+        "ref": "base0C",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#4990e7": {
+        "ref": "base0D",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#4285f4": {
+        "ref": "base0D",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#3c84f7": {
+        "ref": "base0D",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#3584e4": {
+        "ref": "base0D",
+        "chanel": "lightness",
+        "value": 0
+    },
+    "#b74aff": {
+        "ref": "base0E",
+        "chanel": "lightness",
+        "value": 0
+    }
+}
